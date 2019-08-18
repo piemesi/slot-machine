@@ -1,0 +1,6 @@
+@import '../../constants/design/mixins';
+
+.stats
+{
+  @include mainWrapper;
+}

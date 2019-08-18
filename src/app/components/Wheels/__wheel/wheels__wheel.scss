@@ -1,0 +1,45 @@
+.wheels
+{
+  &__wheel
+  {
+
+    height: 70px;
+    width: 70px;
+    padding: 0 4px 30px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #404D5C;
+    border-radius: 4px;
+
+    color: #404D5C;
+
+    text-align: center;
+    font-style: italic;
+
+    &_img
+    {
+      &_strawberry
+      {
+        background-image: url('/img/strawberry.jpg');
+      }
+
+      &_orange
+      {
+        background-image: url('/img/orange.jpg');
+      }
+
+      &_banana
+      {
+        background-image: url('/img/banana.jpg');
+      }
+
+      &_monkey
+      {
+        background-image: url('/img/monkey.jpg');
+      }
+    }
+
+  }
+}

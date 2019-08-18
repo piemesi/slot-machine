@@ -1,0 +1,30 @@
+.links
+{
+  display: flex;
+
+  margin-top: 20px;
+
+  &__link
+  {
+    width: 50%;
+    height: 40px;
+    background: #EFEFEF;
+
+    color: #673BB6;
+
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    &_active
+    {
+      cursor: default;
+
+      background: #294687;
+
+      color: #F1F1F1;
+    }
+  }
+}
