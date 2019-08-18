@@ -1,3 +1,5 @@
+Demo is available [test.softmade.ru](http://test.softmade.ru)
+
 # The Slot Machine
 
 The behaviour will be as follows:
@@ -20,3 +22,8 @@ The machine starts with the symbols in some random position The machine has a st
 * `npm start` or `yarn start` 
 * And will be available on `localhost:3333` (as indicated in webpak-dev-server.config.js)
 * For tests: `npm test`
+
+
+#### For Serve Without Server (open index.html in browser):
+* `webpack`
+* `cd build && ln -s $(pwd) stats` (for react router)
