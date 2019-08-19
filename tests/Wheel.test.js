@@ -43,7 +43,7 @@ it("check changing of variant on a wheel after spin", () => {
   });
   const firstVal = currentValDiv.innerHTML;
   // symbol should change and be one of the `wheelVars` symbols
-  expect(firstVal).not.toBe("Start");
+  expect(firstVal).not.toBe(`Start in ${DEFAULT_START_TIME / 1000} seconds`);
   expect(wheelVars.includes(firstVal)).toBe(true);
 
   // 3ms before changing of spin - should be the same symbol as previous check
